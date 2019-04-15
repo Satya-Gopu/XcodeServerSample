@@ -33,5 +33,9 @@ class XcodeServerSampleTests: XCTestCase {
     func testAdd3() {
         XCTAssertNotEqual(viewController.addNumbers(num1: 2, num2: 3), 4)
     }
+    
+    func testAdd4() {
+        XCTAssertNotEqual(viewController.addNumbers(num1: 3, num2: 3), 5)
+    }
 
 }
