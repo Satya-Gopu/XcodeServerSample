@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     func addNumbers(num1: Int, num2: Int) -> Int {
-        return num1 + 2
+        return num1 + num2
     }
 
 
